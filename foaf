@@ -1,0 +1,28 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>David Fisco</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>David</foaf:givenname>
+<foaf:family_name>Fisco</foaf:family_name>
+<foaf:mbox_sha1sum>dfcb0d7f8f5cd4dd3f57424a8e952a1428848257</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="www.davidfisco.com"/>
+<foaf:depiction rdf:resource="https://www.davidfisco.com/images/sepia_stacked.png"/>
+<foaf:phone rdf:resource="tel:917-720-2217"/>
+<foaf:workplaceHomepage rdf:resource="www.davidfisco.com"/>
+<foaf:workInfoHomepage rdf:resource="https://www.davidfisco.com/about"/>
+<foaf:schoolHomepage rdf:resource="https://www.rutgers.edu/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Barbara Fisco</foaf:name>
+<foaf:mbox_sha1sum>4b0d931eb3571ba2a416c87b213f6b5c2aafc80b</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
